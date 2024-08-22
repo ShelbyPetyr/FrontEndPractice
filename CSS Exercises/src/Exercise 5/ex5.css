@@ -1,0 +1,68 @@
+.ex5a {
+    font-family: Tahoma;
+}
+
+.ex5b-title {
+    font-family: Arial;
+    margin-bottom: 0;
+}
+
+.ex5b-text {
+    font-family: Arial;
+    margin-top: 5px;
+    color: red;
+    font-style: italic;
+}
+
+h3 {
+    text-decoration-line: underline;
+}
+
+.ex5c {
+    font-family: Verdana;
+}
+
+.ex5c-title {
+    margin-bottom: 0;
+}
+.ex5c-sub-title {
+    margin-top: 5px;
+    color: gray;
+    margin-bottom: 0;
+}
+
+.ex5c-text {
+    width: 300px;
+}
+
+.button-ex5c {
+    margin-top: 5px;
+    padding: 5px 10px;
+    border: none; border-radius: 5px;
+    background-color: green; color: white;
+
+}
+
+.ex5d {
+    font-family: Arial;
+}
+
+.ex5d-work {
+    width: 500px;
+    text-align: center;
+    background-color: #f9f8eb;
+}
+
+.ex5d-title {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.ex5d-text {
+    font-weight: bold;
+}
+
+.ex5d-link {
+    color: rgb(31, 31, 246);
+    font-size: 16px;
+}

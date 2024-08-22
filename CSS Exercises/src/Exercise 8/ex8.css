@@ -1,0 +1,131 @@
+div {
+    margin: 5px 5px;
+}
+
+.ex8a > input {
+    display: block;
+    margin-bottom: 3px;
+}
+
+.ex8b {
+    width: 400px;
+}
+.ex8b > p {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.ex8b > button {
+    vertical-align: middle;
+}
+
+.ex8c > img {
+    width: 130px;
+    height: 55px;
+    padding: 0 130px;
+    margin-bottom: 0px;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.ex8c > input {
+    display: block;
+    width: 390px;
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    border: none;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    border-radius: 15px;
+}
+
+.ex8d {
+    width: 300px;
+}
+
+.ex8d-name, .ex8d-name2 {
+    display: inline-block;
+    width: 40%;
+    margin-bottom: 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: gray;
+    
+}
+
+.ex8d-name2 {
+    margin-left: -2px;
+}
+
+.ex8d-email {
+    width: 88.5%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: gray;
+}
+
+.ex8d > button {
+    margin-top: 10px;
+    display: block;
+    width: 96%;
+    border: none;
+    background-color: rgb(19, 19, 230);
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.ex8e {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+
+
+}
+
+.ex8e-pickup-form {
+    display: block;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    width: 90%;
+    margin-left: 2px;
+    background-color: rgba(190,190,190,0.4);
+    color: gray;
+    border: none;
+    font-size: 11px;
+}
+
+.ex8e-destination-form {
+    display: block;
+    margin-bottom: 20px;
+    padding: 5px 10px;
+    width: 90%;
+    margin-left: 2px;
+    background-color: rgba(190,190,190,0.4);
+    color: gray;
+    border: none;
+    font-size: 11px;
+}
+.ex8e-request-button {
+    margin-left: 2px;
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: black; color: white; border: none;
+}
+.ex8e-schedule-button {
+    margin-left: 10px;
+    font-size: 12px;
+    padding: 5px 10px;
+    background-color: rgba(190,190,190,0.4);
+    border: none;
+}
+

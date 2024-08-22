@@ -1,0 +1,16 @@
+All of the properties that I have learned so far:
+
+background-color    -> change background color of a box.
+color               -> change text color.
+font-weight         -> set the thickness of text characters.
+border              -> 
+border-radius       -> set the curve of border.
+cursor              -> set the mouse cursor when hovered.
+opacity             -> set the opacity of an element.
+transition          -> set the transition of certain property.
+padding             ->
+
+
+Functions:
+
+rgba()              -> color with alpha channel.

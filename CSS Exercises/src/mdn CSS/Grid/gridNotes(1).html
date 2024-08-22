@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperSimpleDev Notes</title>
+    <!-- <link rel="stylesheet" href="grid.css"> -->
+</head>
+<body>
+
+    <div id="Example-1">
+
+        <h1> Example 1</h1>
+        <div style="display: grid; grid-template-columns: 100px 100px;">
+            <div style="border: solid; border-width: 1px; background-color: lightblue;">
+                div 1 - 100px
+                <p>hello</p>
+            </div>
+            <div style="border: solid; border-width: 1px; background-color: pink;">
+                div 2 - 100px
+            </div>
+        </div>
+        <div style="margin-top: 10px;">
+            <span style="color: darkgreen; text-decoration: underline;">Explanation:</span>
+            <p style="display: inline">All grid cells are aligned regardless of the content.</p>
+        </div>
+
+    </div>
+        
+
+    <div id="Example-2">
+
+        <h1>Example 2</h1>
+
+        <div style="display: grid; grid-template-columns: 100px 100px 200px;">
+            <div style="border: solid; border-width: 1px; background-color: lightblue;">
+                 div 1 - 100px
+            </div>
+            <div style="border: solid; border-width: 1px; background-color: pink;">
+                div 2 - 100px<p>hello</p>
+            </div>
+            <div style="border: solid; border-width: 1px; background-color:lightblue;">
+                div 3 - 200px
+            </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 100px 100px 1fr; margin-top: 10px;">
+                <div style="border: solid; border-width: 1px; background-color: lightblue;">
+                    div 1 - 100px
+                </div>
+                <div style="border: solid; border-width: 1px; background-color: pink;">
+                    div 2 - 100px<p>hello</p>
+                </div>
+                <div style="border: solid; border-width: 1px; background-color:lightblue;">
+                    div 3 - 1fr
+                </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 100px 1fr 1fr; margin-top: 10px;">
+            <div style="border: solid; border-width: 1px; background-color: lightblue;">
+                    div 1 - 100px
+            </div>
+            <div style="border: solid; border-width: 1px; background-color: pink;">
+                  div 2 - 1fr<p>hello</p>
+            </div>
+            <div style="border: solid; border-width: 1px; background-color:lightblue;">
+                  div 3 - 1fr
+            </div>
+        </div>
+        <div style="margin-top: 10px;">
+            <span style="color: darkgreen; text-decoration: underline;">Explanation:</span>
+            <p style="display: inline">fr is the recommended unit of measurement for grid layout.</p>
+        </div>
+
+    </div>
+
+    <div id="Example-3">
+        <h1>Example 3</h1>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr; text-align: center; height: 200px; gap: 1%">
+            <div style="border: solid; border-width: 1px; background-color: lightblue;">
+                 div 1 
+            </div>
+            <div style="border: solid; border-width: 1px; background-color: pink;">
+                div 2 
+            </div>
+            <div style="border: solid; border-width: 1px; background-color:lightblue;">
+                div 3 
+            </div>
+            <div style="border: solid; border-width: 1px; background-color:lightblue;">
+                div 4
+            </div>
+            <div style="border: solid; border-width: 1px; background-color:lightblue;">
+                div 4
+            </div>
+            <div style="border: solid; border-width: 1px; background-color:lightblue;">
+                div 4
+            </div>
+            <div style="border: solid; border-width: 1px; background-color:lightblue;">
+                div 4
+            </div>
+            <div style="border: solid; border-width: 1px; background-color:lightblue;">
+                div 4
+            </div>
+            <div style="border: solid; border-width: 1px; background-color:lightblue;">
+                div 4
+            </div>
+        </div>
+        <div style="margin-top: 10px;">
+            <span style="color: darkgreen; text-decoration: underline;">Explanation:</span>
+            <p style="display: inline">
+                When the number of cells exceed the number of specified columns, they just 
+                wrap around inside the size of the container.
+            </p>
+        </div>
+    </div>
+</body>
+</html>

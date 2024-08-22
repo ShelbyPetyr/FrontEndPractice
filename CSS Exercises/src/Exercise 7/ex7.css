@@ -1,0 +1,112 @@
+div {
+    width: 350px;
+}
+
+.ex7a > img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.ex7b > img {
+    width: 100px;
+    height: 100px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.ex7c > img {
+    width: 150px;
+    height: 150px;
+    object-position: center;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.ex7d > input {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: gray;
+    width: 140px;
+}
+
+.ex7e > input {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 180px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.35);
+}
+
+.ex7f {
+    font-family: Arial;
+}
+
+.ex7f > p {
+    color: rgb(93, 92, 92);
+    font-size: 11px;
+    font-weight: bold;
+    width: 300px;
+    margin-bottom: 0px;
+}
+
+.ex7f > input {
+    width: 295px;
+    height: 20px;
+    border-radius: 3px;
+    border: solid;
+    border-width: 1.4px;
+    border-color: gray;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.ex7f > button {
+    width: 300px;
+    margin-top: 10px;
+    padding: 10px 0;
+    border: none;
+    border-radius: 18px;
+    background-color: rgb(50, 50, 201);
+    opacity: 0.8;
+    color: white;
+    font-weight: 520;
+}
+
+.ex7g > img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ex7g > input {
+    vertical-align: middle;
+    border: none;
+    color: gray;
+    font-weight: 500;
+    font-size: 15px;
+    padding-right: 40px;
+    display: inline-block
+}
+
+.ex7g > button {
+    border: none;
+    font-weight: bold;
+    background-color: rgb(19, 19, 227);
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+    opacity: 0.5;
+}
+
+.ex7g > buton {
+    vertical-align: middle;
+}
